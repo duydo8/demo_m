@@ -19,6 +19,7 @@ public class Event {
     private Long eventCreate;
     private Long eventEnd;
     private String eventName;
+    @ElementCollection
     private Set<String> attendeeName;
 
 
